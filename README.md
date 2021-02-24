@@ -1,6 +1,6 @@
-Это чистый шаблон Django проекта, с которым можно быстро начать разработку. В шаблон входит конфиг Systemd, nginx, gunicorn.
+Это основной шаблон моего портфолио в связке React + REST API на Django
 
-Установка представляет собой просто указание Python интерпретатора и названия домена, запустите:
+<!-- Установка представляет собой просто указание Python интерпретатора и названия домена, запустите:
 
 ```bash
 ./install.sh
@@ -21,4 +21,4 @@ sudo systemctl status gunicorn
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl restart gunicorn
-```
+``` -->
