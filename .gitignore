@@ -5,7 +5,6 @@ logs/
 **/__pycache__
 *.aux
 *.log
-*.pickle
 *.db
 *.rdb
 *.pid
