@@ -5,8 +5,8 @@ After=network.target
 [Service]
 User=www
 Group=www-data
-WorkingDirectory=dbms_template_path/src
-ExecStart=dbms_template_path/env/bin/gunicorn --workers 3 --bind unix:dbms_template_path/gunicorn/gunicorn.sock config.wsgi:application --access-logfile dbms_template_path/gunicorn/access.log --error-logfile dbms_template_path/gunicorn/error.log
+WorkingDirectory=/d/Python_work/react_django_project/src
+ExecStart=/d/Python_work/react_django_project/env/bin/gunicorn --workers 3 --bind unix:/d/Python_work/react_django_project/gunicorn/gunicorn.sock config.wsgi:application --access-logfile /d/Python_work/react_django_project/gunicorn/access.log --error-logfile /d/Python_work/react_django_project/gunicorn/error.log
 Restart=on-failure
 
 [Install]
